@@ -1,3 +1,6 @@
+# NOTA:
+  - No pude ejecutar las pruebas de karate desde la linea de comandos con el comando `gradlew test`, la unica forma que pude ejecutar las pruebas fue desde el IDE IntelliJ, por lo que no pude verificar si el comando `gradlew test` funciona correctamente.
+
 # Proyecto base de pruebas automatizadas con Karate, Java y Gradle
 
 Este proyecto es una base para implementar pruebas automatizadas de la colección de peticiones entregadas (por ejemplo, una colección Postman). Todas las pruebas deben ser escritas en el archivo `src/test/resources/karate-test.feature` siguiendo la sintaxis de Karate DSL.
