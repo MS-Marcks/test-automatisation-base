@@ -1,5 +1,5 @@
 {
-  "urlBase": "http://localhost:8080/",
+  "urlBase": "http://bp-se-test-cabcd9b246a5.herokuapp.com/",
   "username": "garamos",
   "path": "/api/characters"
 }
