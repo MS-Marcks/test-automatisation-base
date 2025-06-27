@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    
+    testImplementation 'com.intuit.karate:karate-junit5:1.4.1',
+            "com.intuit.karate:karate-netty:0.9.2",
+            "com.intuit.karate:karate-apache:0.9.6",
+            "net.masterthought:cucumber-reporting:5.8.1",
+            'junit:junit:4.13.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+

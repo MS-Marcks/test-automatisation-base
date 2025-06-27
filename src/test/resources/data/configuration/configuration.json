@@ -1,0 +1,5 @@
+{
+  "urlBase": "http://localhost:8080/",
+  "username": "garamos",
+  "path": "/api/characters"
+}
